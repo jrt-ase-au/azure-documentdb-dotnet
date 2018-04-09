@@ -23,13 +23,13 @@
     // 1. Basic CRUD operations on a document using regular POCOs
     // 1.1 - Create a document
     // 1.2 - Read a document by its Id
-    // 1.3 - Read all documents in a Collection
+    // 1.3 - Read all documents in a Collectionss
     // 1.4 - Query for documents by a property other than Id
     // 1.5 - Replace a document
     // 1.6 - Upsert a document
     // 1.7 - Delete a document
-    //
-    // 2. Work with dynamic objects
+    //sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+    // 2. Work with dynamic objectssssss
     //
     // 3. Using ETags to control execution
     // 3.1 - Use ETag with ReplaceDocument for optimistic concurrency
@@ -74,7 +74,8 @@
                 connectionPolicy.PreferredLocations.Add(LocationNames.NorthEurope); // second preference
                 connectionPolicy.PreferredLocations.Add(LocationNames.SoutheastAsia); // third preference
 
-                using (client = new DocumentClient(new Uri(endpointUrl), authorizationKey, connectionPolicy))
+                //using (client = new DocumentClient(new Uri(endpointUrl), authorizationKey, connectionPolicy))
+                using (client = new DocumentClient(new Uri(endpointUrl), authorizationKey))
                 {
                     Initialize().Wait();
 

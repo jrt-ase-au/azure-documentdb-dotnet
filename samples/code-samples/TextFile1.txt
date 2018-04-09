@@ -1,0 +1,16 @@
+An unhandled exception of type 'System.AggregateException' occurred in mscorlib.dll
+Additional information: Der opstod en eller flere fejl. occurred
+
+Severity	Code	Description	Project	File	Line	Suppression State
+Error		This project references NuGet package(s) that are missing on this computer.
+Use NuGet Package Restore to download them.  
+
+For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. 
+The missing file is ..\packages\Microsoft.Azure.DocumentDB.1.14.0\build\Microsoft.Azure.DocumentDB.targets.	ChangeFeed	
+C:\Users\jrt\Source\Repos\azure-documentdb-dotnet\samples\code-samples\ChangeFeed\ChangeFeed.csproj	81	
+
+Severity	Code	Description	Project	File	Line	Suppression State
+Warning	IDE0006	Error encountered while loading the project. Some project features, such as full solution analysis for the failed project and projects that depend on it, have been disabled.	ChangeFeed		1	Active
+
+An unhandled exception of type 'System.AggregateException' occurred in mscorlib.dll
+Additional information: Der opstod en eller flere fejl. occurred
